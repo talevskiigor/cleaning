@@ -1,0 +1,27 @@
+{
+    "name": "unknown/cleaning",
+    "description": "small command-line application for a fictional cleaning company that determines the",
+    "type": "project",
+    "require": {
+        "nesbot/carbon": "^2.66",
+        "symfony/console": "^6.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Unknown\\Cleaning\\": "src/"
+        },
+        "files": [
+            "src/Helpers/AppStrings.php",
+            "src/Helpers/Actions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "cleaning schedule of an office for the next three months"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.2"
+    }
+}
